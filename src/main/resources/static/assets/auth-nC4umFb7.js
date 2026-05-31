@@ -1,0 +1,1 @@
+import{t as e}from"./axios-C2Iog8yy.js";var t=e.create({baseURL:`/api`,timeout:1e4});function n(e,n){return t.post(`/auth/login`,{username:e,password:n}).then(e=>e.data)}function r(){return t.post(`/auth/logout`).then(e=>e.data)}function i(){return t.get(`/auth/status`).then(e=>e.data)}export{n,r,i as t};

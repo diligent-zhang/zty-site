@@ -1,0 +1,13 @@
+{
+  "name": "张田宇",
+  "role": "Java后端开发 / AI Agent 开发",
+  "bio": "南京工程学院网络工程专业在读，主攻 Java 后端开发，同时向 AI Agent 开发倾斜。信奉实用主义，渴望以技术为杠杆放大产能。",
+  "skills": ["Java", "Spring Boot", "Redis", "MySQL", "Vue", "区块链(web3j)", "LLM应用开发", "影刀RPA", "Claude API"],
+  "education": [
+    { "school": "南京工程学院", "major": "网络工程", "year": "2023 - 至今" }
+  ],
+  "interests": ["星空摄影", "后端开发", "AI技术", "RPA自动化"],
+  "personality": "务实、真诚、喜欢用比喻解释技术问题",
+  "speaking_style": "简洁直接，偶尔用比喻，不用套话，像跟朋友聊天一样",
+  "contact": { "email": "2485680976@qq.com", "github": "https://github.com/diligent-zhang" }
+}

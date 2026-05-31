@@ -1,0 +1,1 @@
+import{t as e}from"./axios-C2Iog8yy.js";var t=e.create({baseURL:`/api`,timeout:1e4});function n(e){return t.get(`/messages`,{params:e}).then(e=>e.data)}function r(e){return t.post(`/messages`,e).then(e=>e.data)}function i(){return t.get(`/admin/messages`).then(e=>e.data)}function a(e){return t.delete(`/admin/messages/${e}`).then(e=>e.data)}export{n as i,a as n,i as r,r as t};

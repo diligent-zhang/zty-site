@@ -1,0 +1,1 @@
+import{t as e}from"./axios-C2Iog8yy.js";var t=e.create({baseURL:`/api`,timeout:1e4});function n(){return t.get(`/passions`).then(e=>e.data)}function r(e){return t.post(`/admin/passions`,e).then(e=>e.data)}function i(e,n){return t.put(`/admin/passions/${e}`,n).then(e=>e.data)}function a(e){return t.delete(`/admin/passions/${e}`).then(e=>e.data)}export{i,a as n,n as r,r as t};
