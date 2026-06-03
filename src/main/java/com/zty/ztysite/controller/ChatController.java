@@ -19,7 +19,6 @@ public class ChatController {
     public ChatController(ChatService chatService) {
         this.chatService = chatService;
     }
-
     /**
      * 聊天接口 — SSE 流式响应
      *
@@ -30,7 +29,6 @@ public class ChatController {
     public SseEmitter chat(@RequestBody ChatRequest request) {
         // SseEmitter(60秒超时)：如果 60 秒内没数据，连接自动关闭
         SseEmitter emitter = new SseEmitter(60000L);
-
         // 把 DTO 的 ChatMessage 列表转成 Map 列表，方便 ChatService 处理
         List<Map<String, String>> messages = new ArrayList<>();
         for (ChatRequest.ChatMessage msg : request.getMessages()) {
